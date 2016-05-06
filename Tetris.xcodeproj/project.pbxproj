@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A04A212B1CDC7CB1008CCC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A212A1CDC7CB1008CCC8A /* AppDelegate.swift */; };
+		A04A212D1CDC7CB1008CCC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A212C1CDC7CB1008CCC8A /* ViewController.swift */; };
+		A04A21301CDC7CB1008CCC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04A212E1CDC7CB1008CCC8A /* Main.storyboard */; };
+		A04A21331CDC7CB1008CCC8A /* Tetris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A04A21311CDC7CB1008CCC8A /* Tetris.xcdatamodeld */; };
+		A04A21351CDC7CB1008CCC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04A21341CDC7CB1008CCC8A /* Assets.xcassets */; };
+		A04A21381CDC7CB1008CCC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04A21361CDC7CB1008CCC8A /* LaunchScreen.storyboard */; };
+		A04A21431CDC7CB1008CCC8A /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A21421CDC7CB1008CCC8A /* TetrisTests.swift */; };
+		A04A214E1CDC7CB1008CCC8A /* TetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A214D1CDC7CB1008CCC8A /* TetrisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A04A213F1CDC7CB1008CCC8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A04A211F1CDC7CB1008CCC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A04A21261CDC7CB1008CCC8A;
+			remoteInfo = Tetris;
+		};
+		A04A214A1CDC7CB1008CCC8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A04A211F1CDC7CB1008CCC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A04A21261CDC7CB1008CCC8A;
+			remoteInfo = Tetris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A04A21271CDC7CB1008CCC8A /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04A212A1CDC7CB1008CCC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A04A212C1CDC7CB1008CCC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04A212F1CDC7CB1008CCC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04A21321CDC7CB1008CCC8A /* Tetris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tetris.xcdatamodel; sourceTree = "<group>"; };
+		A04A21341CDC7CB1008CCC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04A21371CDC7CB1008CCC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A04A21391CDC7CB1008CCC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04A213E1CDC7CB1008CCC8A /* TetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04A21421CDC7CB1008CCC8A /* TetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisTests.swift; sourceTree = "<group>"; };
+		A04A21441CDC7CB1008CCC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04A21491CDC7CB1008CCC8A /* TetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04A214D1CDC7CB1008CCC8A /* TetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisUITests.swift; sourceTree = "<group>"; };
+		A04A214F1CDC7CB1008CCC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04A21241CDC7CB1008CCC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A213B1CDC7CB1008CCC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A21461CDC7CB1008CCC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04A211E1CDC7CB1008CCC8A = {
+			isa = PBXGroup;
+			children = (
+				A04A21291CDC7CB1008CCC8A /* Tetris */,
+				A04A21411CDC7CB1008CCC8A /* TetrisTests */,
+				A04A214C1CDC7CB1008CCC8A /* TetrisUITests */,
+				A04A21281CDC7CB1008CCC8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04A21281CDC7CB1008CCC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04A21271CDC7CB1008CCC8A /* Tetris.app */,
+				A04A213E1CDC7CB1008CCC8A /* TetrisTests.xctest */,
+				A04A21491CDC7CB1008CCC8A /* TetrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04A21291CDC7CB1008CCC8A /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				A04A212A1CDC7CB1008CCC8A /* AppDelegate.swift */,
+				A04A212C1CDC7CB1008CCC8A /* ViewController.swift */,
+				A04A212E1CDC7CB1008CCC8A /* Main.storyboard */,
+				A04A21341CDC7CB1008CCC8A /* Assets.xcassets */,
+				A04A21361CDC7CB1008CCC8A /* LaunchScreen.storyboard */,
+				A04A21391CDC7CB1008CCC8A /* Info.plist */,
+				A04A21311CDC7CB1008CCC8A /* Tetris.xcdatamodeld */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		A04A21411CDC7CB1008CCC8A /* TetrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				A04A21421CDC7CB1008CCC8A /* TetrisTests.swift */,
+				A04A21441CDC7CB1008CCC8A /* Info.plist */,
+			);
+			path = TetrisTests;
+			sourceTree = "<group>";
+		};
+		A04A214C1CDC7CB1008CCC8A /* TetrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A04A214D1CDC7CB1008CCC8A /* TetrisUITests.swift */,
+				A04A214F1CDC7CB1008CCC8A /* Info.plist */,
+			);
+			path = TetrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04A21261CDC7CB1008CCC8A /* Tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04A21521CDC7CB1008CCC8A /* Build configuration list for PBXNativeTarget "Tetris" */;
+			buildPhases = (
+				A04A21231CDC7CB1008CCC8A /* Sources */,
+				A04A21241CDC7CB1008CCC8A /* Frameworks */,
+				A04A21251CDC7CB1008CCC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris;
+			productName = Tetris;
+			productReference = A04A21271CDC7CB1008CCC8A /* Tetris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A04A213D1CDC7CB1008CCC8A /* TetrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04A21551CDC7CB1008CCC8A /* Build configuration list for PBXNativeTarget "TetrisTests" */;
+			buildPhases = (
+				A04A213A1CDC7CB1008CCC8A /* Sources */,
+				A04A213B1CDC7CB1008CCC8A /* Frameworks */,
+				A04A213C1CDC7CB1008CCC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04A21401CDC7CB1008CCC8A /* PBXTargetDependency */,
+			);
+			name = TetrisTests;
+			productName = TetrisTests;
+			productReference = A04A213E1CDC7CB1008CCC8A /* TetrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A04A21481CDC7CB1008CCC8A /* TetrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04A21581CDC7CB1008CCC8A /* Build configuration list for PBXNativeTarget "TetrisUITests" */;
+			buildPhases = (
+				A04A21451CDC7CB1008CCC8A /* Sources */,
+				A04A21461CDC7CB1008CCC8A /* Frameworks */,
+				A04A21471CDC7CB1008CCC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04A214B1CDC7CB1008CCC8A /* PBXTargetDependency */,
+			);
+			name = TetrisUITests;
+			productName = TetrisUITests;
+			productReference = A04A21491CDC7CB1008CCC8A /* TetrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04A211F1CDC7CB1008CCC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mxsm;
+				TargetAttributes = {
+					A04A21261CDC7CB1008CCC8A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A04A213D1CDC7CB1008CCC8A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A04A21261CDC7CB1008CCC8A;
+					};
+					A04A21481CDC7CB1008CCC8A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A04A21261CDC7CB1008CCC8A;
+					};
+				};
+			};
+			buildConfigurationList = A04A21221CDC7CB1008CCC8A /* Build configuration list for PBXProject "Tetris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A04A211E1CDC7CB1008CCC8A;
+			productRefGroup = A04A21281CDC7CB1008CCC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04A21261CDC7CB1008CCC8A /* Tetris */,
+				A04A213D1CDC7CB1008CCC8A /* TetrisTests */,
+				A04A21481CDC7CB1008CCC8A /* TetrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04A21251CDC7CB1008CCC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04A21381CDC7CB1008CCC8A /* LaunchScreen.storyboard in Resources */,
+				A04A21351CDC7CB1008CCC8A /* Assets.xcassets in Resources */,
+				A04A21301CDC7CB1008CCC8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A213C1CDC7CB1008CCC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A21471CDC7CB1008CCC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04A21231CDC7CB1008CCC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04A21331CDC7CB1008CCC8A /* Tetris.xcdatamodeld in Sources */,
+				A04A212D1CDC7CB1008CCC8A /* ViewController.swift in Sources */,
+				A04A212B1CDC7CB1008CCC8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A213A1CDC7CB1008CCC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04A21431CDC7CB1008CCC8A /* TetrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A21451CDC7CB1008CCC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04A214E1CDC7CB1008CCC8A /* TetrisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A04A21401CDC7CB1008CCC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A04A21261CDC7CB1008CCC8A /* Tetris */;
+			targetProxy = A04A213F1CDC7CB1008CCC8A /* PBXContainerItemProxy */;
+		};
+		A04A214B1CDC7CB1008CCC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A04A21261CDC7CB1008CCC8A /* Tetris */;
+			targetProxy = A04A214A1CDC7CB1008CCC8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A04A212E1CDC7CB1008CCC8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04A212F1CDC7CB1008CCC8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A04A21361CDC7CB1008CCC8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04A21371CDC7CB1008CCC8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A04A21501CDC7CB1008CCC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A04A21511CDC7CB1008CCC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A04A21531CDC7CB1008CCC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tetris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zx.Tetris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A04A21541CDC7CB1008CCC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tetris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zx.Tetris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A04A21561CDC7CB1008CCC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TetrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zx.TetrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tetris.app/Tetris";
+			};
+			name = Debug;
+		};
+		A04A21571CDC7CB1008CCC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TetrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zx.TetrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tetris.app/Tetris";
+			};
+			name = Release;
+		};
+		A04A21591CDC7CB1008CCC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TetrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zx.TetrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tetris;
+			};
+			name = Debug;
+		};
+		A04A215A1CDC7CB1008CCC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TetrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zx.TetrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tetris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04A21221CDC7CB1008CCC8A /* Build configuration list for PBXProject "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04A21501CDC7CB1008CCC8A /* Debug */,
+				A04A21511CDC7CB1008CCC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04A21521CDC7CB1008CCC8A /* Build configuration list for PBXNativeTarget "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04A21531CDC7CB1008CCC8A /* Debug */,
+				A04A21541CDC7CB1008CCC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A04A21551CDC7CB1008CCC8A /* Build configuration list for PBXNativeTarget "TetrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04A21561CDC7CB1008CCC8A /* Debug */,
+				A04A21571CDC7CB1008CCC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A04A21581CDC7CB1008CCC8A /* Build configuration list for PBXNativeTarget "TetrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04A21591CDC7CB1008CCC8A /* Debug */,
+				A04A215A1CDC7CB1008CCC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A04A21311CDC7CB1008CCC8A /* Tetris.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A04A21321CDC7CB1008CCC8A /* Tetris.xcdatamodel */,
+			);
+			currentVersion = A04A21321CDC7CB1008CCC8A /* Tetris.xcdatamodel */;
+			path = Tetris.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A04A211F1CDC7CB1008CCC8A /* Project object */;
+}
